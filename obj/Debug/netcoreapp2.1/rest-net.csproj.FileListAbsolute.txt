@@ -1,0 +1,11 @@
+/home/marcos/git/rest-net/bin/Debug/netcoreapp2.1/rest-net.deps.json
+/home/marcos/git/rest-net/bin/Debug/netcoreapp2.1/rest-net.runtimeconfig.json
+/home/marcos/git/rest-net/bin/Debug/netcoreapp2.1/rest-net.runtimeconfig.dev.json
+/home/marcos/git/rest-net/bin/Debug/netcoreapp2.1/rest-net.dll
+/home/marcos/git/rest-net/bin/Debug/netcoreapp2.1/rest-net.pdb
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.csprojAssemblyReference.cache
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.csproj.CoreCompileInputs.cache
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.AssemblyInfoInputs.cache
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.AssemblyInfo.cs
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.dll
+/home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.pdb
