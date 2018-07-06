@@ -15,8 +15,15 @@ namespace WebAPIClient
         static void Main(string[] args)
 	{
 		var repositories = ProcessRepositories().Result;
-		foreach(var repo in repositories)
+		foreach (var repo in repositories)
+		{
 			Console.WriteLine(repo.Name);
+			Console.WriteLine(repo.Description);
+			Console.WriteLine(repo.GitHubHomeUrl);
+			Console.WriteLine(repo.Homepage);
+			Console.WriteLine(repo.Watchers);
+			Console.WriteLine(repo.LastPush);			
+		}
         }
 
 	private static async Task<List<Repository>> ProcessRepositories()

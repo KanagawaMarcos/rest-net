@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.1": {
       "rest-net/1.0.0": {
         "dependencies": {
-          "System.Runtime.Serialization.Json": "4.3.0"
+          "System.Runtime.Serialization.Json": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "runtime": {
           "rest-net.dll": {}

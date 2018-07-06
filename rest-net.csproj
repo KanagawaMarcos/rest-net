@@ -8,5 +8,4 @@
 		<TargetFramework>netcoreapp2.1</TargetFramework>
 		<RootNamespace>rest_net</RootNamespace>
 	</PropertyGroup>
-
 </Project>
