@@ -551,7 +551,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
@@ -3289,7 +3289,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "System.Runtime.Serialization.Json >= 4.3.0"
+      "System.Runtime.Serialization.Json >= 4.3.0",
+      "System.Runtime.Serialization.Primitives >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -3337,6 +3338,10 @@
             "autoReferenced": true
           },
           "System.Runtime.Serialization.Json": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "System.Runtime.Serialization.Primitives": {
             "target": "Package",
             "version": "[4.3.0, )"
           }
