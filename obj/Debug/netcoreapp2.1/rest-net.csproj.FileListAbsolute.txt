@@ -9,3 +9,14 @@
 /home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.AssemblyInfo.cs
 /home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.dll
 /home/marcos/git/rest-net/obj/Debug/netcoreapp2.1/rest-net.pdb
+D:\Developer .NET\Developer .NET\Web\RestClient\bin\Debug\netcoreapp2.1\rest-net.deps.json
+D:\Developer .NET\Developer .NET\Web\RestClient\bin\Debug\netcoreapp2.1\rest-net.runtimeconfig.json
+D:\Developer .NET\Developer .NET\Web\RestClient\bin\Debug\netcoreapp2.1\rest-net.runtimeconfig.dev.json
+D:\Developer .NET\Developer .NET\Web\RestClient\bin\Debug\netcoreapp2.1\rest-net.dll
+D:\Developer .NET\Developer .NET\Web\RestClient\bin\Debug\netcoreapp2.1\rest-net.pdb
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.csprojAssemblyReference.cache
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.csproj.CoreCompileInputs.cache
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.AssemblyInfoInputs.cache
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.AssemblyInfo.cs
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.dll
+D:\Developer .NET\Developer .NET\Web\RestClient\obj\Debug\netcoreapp2.1\rest-net.pdb

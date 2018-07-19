@@ -14,17 +14,32 @@ namespace WebAPIClient
 
         static void Main(string[] args)
 	{
-		var repositories = ProcessRepositories().Result;
-		foreach (var repo in repositories)
-		{
-			Console.WriteLine(repo.Name);
-			Console.WriteLine(repo.Description);
-			Console.WriteLine(repo.GitHubHomeUrl);
-			Console.WriteLine(repo.Homepage);
-			Console.WriteLine(repo.Watchers);
-			Console.WriteLine(repo.LastPush);			
-		}
-        }
+		GetNewPosibleCostumersContact().Wait();
+		// var repositories = ProcessRepositories().Result;
+		// foreach (var repo in repositories)
+		// {
+		// 	Console.WriteLine(repo.Name);
+		// 	Console.WriteLine(repo.Description);
+		// 	Console.WriteLine(repo.GitHubHomeUrl);
+		// 	Console.WriteLine(repo.Homepage);
+		// 	Console.WriteLine(repo.Watchers);
+		// 	Console.WriteLine(repo.LastPush);			
+		// }
+    }
+
+	private static async Task GetNewPosibleCostumersContact ()
+	{
+		HttpClient client = new HttpClient();
+            string v = await client.GetStringAsync("http://ceapebrasil.org.br/api/wecallyou/0,1/"+GetMd5Key());
+            var stream = v;
+		Console.Write(stream);		
+	}
+
+	private static string GetMd5Key()
+	{
+		string key = System.IO.File.ReadAllText("md5.key");
+		return key;
+	}
 
 	private static async Task<List<Repository>> ProcessRepositories()
 	{

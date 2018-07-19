@@ -3294,28 +3294,30 @@
     ]
   },
   "packageFolders": {
-    "/home/marcos/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\msantos\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marcos/git/rest-net/rest-net.csproj",
+      "projectUniqueName": "d:\\Developer .NET\\Developer .NET\\Web\\RestClient\\rest-net.csproj",
       "projectName": "rest-net",
-      "projectPath": "/home/marcos/git/rest-net/rest-net.csproj",
-      "packagesPath": "/home/marcos/.nuget/packages/",
-      "outputPath": "/home/marcos/git/rest-net/obj/",
+      "projectPath": "d:\\Developer .NET\\Developer .NET\\Web\\RestClient\\rest-net.csproj",
+      "packagesPath": "C:\\Users\\msantos\\.nuget\\packages\\",
+      "outputPath": "d:\\Developer .NET\\Developer .NET\\Web\\RestClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/marcos/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\msantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
